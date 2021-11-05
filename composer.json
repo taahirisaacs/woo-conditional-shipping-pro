@@ -1,0 +1,15 @@
+{
+    "name": "taahirisaacs/woo-conditional-shipping-pro",
+    "description": "Flux base for Flux DNA",
+    "keywords": ["wordpress", "plugin"],
+    "homepage": "https://github.com/taahirisaacs/woo-conditional-shipping-pro",
+    "authors": [
+      {
+        "name": "Flux"
+      }
+    ],
+    "type": "wordpress-plugin",
+    "require": {
+      "php": ">=7.1"
+    }
+  }
