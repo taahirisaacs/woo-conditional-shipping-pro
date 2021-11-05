@@ -1,0 +1,212 @@
+2.6.0 (5 October 2021)
+
+* Made it possible to increase / decrease / set shipping price based on percentage of subtotal
+* Allowed HTML in the no shipping methods available message
+
+2.5.1 (23 June 2021)
+
+* Added license key to the settings (*_WooCommerce > Settings > Shipping > Conditions_*). License key will soon become mandatory for downloading plugin updates. If you dind't get license key with your order, you can re-order the key [here](https://wooelements.com/get-your-license-keys/) (WooElements.com) or [here](https://markup.fi/lisenssiavaimien-tilaus/) (Markup.fi).
+
+2.5.0 (17 June 2021)
+
+* Added debug mode
+* Added "Disable all rulesets" setting
+
+2.4.3 (20 April 2021)
+
+* Small performance improvement if there are a lot of shipping methods / zones
+
+2.4.2 (8 April 2021)
+
+* Added possibility to add shortcodes to shipping notices
+* Allowed HTML in shipping notices
+
+2.4.1 (15 January 2021)
+
+* Fixed bug where shipping notice would appear even if conditions do not pass
+
+2.4.0 (11 January 2021)
+
+* Added conditions for states
+
+2.3.5 (14 December 2020)
+
+* Improved WPML support for category conditions
+* Fixed bug which caused shipping notice to appear multiple times
+* Improved compatibility with Table Rate plugin
+* Fixed bug which caused "Weight greater than 0" to not work correctly
+* Added subset filter for calculating weight of a certain shipping class
+
+2.3.4 (13 October 2020)
+
+* Added support for multiple roles per user for user role condition
+* Improved compatibility with 3rd party plugins
+
+2.3.3 (11 September 2020)
+
+* Fixed bug with Products condition which prevented it to work with a lot of product variations
+
+2.3.2 (27 August 2020)
+
+* Sorted product category options hierarchicaly
+* Product category conditions now automatically include child categories without selecting them explicitly. *Please note!* Ensure rulesets are working correctly after updating if you have category conditions.
+
+2.3.1 (22 August 2020)
+
+* Updated translation files
+
+2.3.0 (21 August 2020)
+
+* Added Health Check to catch common issues with rulesets
+* Added AJAX toggle for ruleset state (enabled / disabled)
+* Fixed issue which caused shipping notice and no shipping message to not show up if refreshing the checkout page manually
+
+2.2.8 (13 June 2020)
+
+* Excluded taxes from the subtotal condition if the store displays subtotal excluding tax (_WooCommerce > Settings > Tax > Display prices during cart and checkout_). *Please note!* Ensure rulesets are working correctly after updating if you have subtotal conditions.
+
+2.2.7 (20 May 2020)
+
+* Minor fix for the user role filter to improve compatibility with 3rd party plugins
+* WooCommerce 4.1.x compatibility check
+
+2.2.6 (15 April 2020)
+
+* Improved PHP 7.3 compatibility
+* WooCommerce 4.x compatibility check
+
+2.2.5
+
+* For developers: added possibility to add support for 3rd party shipping methods / plugins with WP filters / hooks
+* Added "Set shipping notice" action for displaying messages to customers on the checkout
+
+2.2.4
+
+* Added conditions for billing / shipping country and postcode
+
+2.2.3
+
+* Added "not in a shipping class" filtering for subtotal and number of items conditions
+
+2.2.2
+
+* Added functionality for filtering by shipping class subtotal
+* Added functionality for filtering by number of items in a shipping class
+
+2.2.1
+
+* Improved product search
+
+2.2.0
+
+* Added product attributes conditions
+* Added functionality for setting custom "no shipping methods available" message
+
+2.1.2
+
+* Added "Subtotal includes coupons" option
+* Added functionality for enabling / disabling rulesets
+
+2.1.1
+
+* Added weekdays condition
+* Added time condition
+
+2.1.0
+
+* Added functionality to modify shipping costs conditionally (set, increase or decrease)
+* Added "All coupons" option for including / excluding all coupons at once
+
+2.0.1
+
+* WooCommerce 3.6.x fixes
+
+2.0.0
+
+* Moved conditions from individual shipping methods to separate settings page (WooCommerce > Settings > Shipping > Conditions). This change will allow more advanced functionality in upcoming versions. Important! Check that conditions are working correctly after updating.
+
+1.2.0
+
+* Added product measurement filters for highest and lowest values. For example "Product height - highest - less than - 10 centimeters".
+
+1.1.3
+
+* Fixed bug which caused role condition not saving in some environments
+* "Role - is not" condition now shows the shipping method for logged out users. Use "Logged in" filter if you want to hide shipping method for logged out customers. "Role - is" wont show shipping method for logged out users like in the previous versions.
+* Added coupon conditions
+
+1.1.2
+
+* Improved compatibility with 3rd party shipping method plugins
+
+1.1.1
+
+* Added user logged in / out and role filters
+
+1.1.0
+
+* Improved admin user interface
+
+1.0.14
+
+* Added new filters: maximum and minimum number of items in the cart
+
+1.0.13
+
+* Fixed WooCommerce Services compatibility issue
+* Fixed WooCommerce 3.4 compatibility issue
+
+1.0.12
+
+* Improved compatibility with some 3rd party shipping modules where settings were not saving.
+
+1.0.11
+
+* Improved compatibility with WooCommerce
+
+1.0.10
+
+* Improved compatibility with multi-site environments.
+
+1.0.9
+
+* Added \"All shipping classes present\" filter
+
+1.0.8
+
+* Added compatibility for WooCommerce Distance Rate Shipping plugin
+
+1.0.7
+
+* Improved compatibility with 3rd party shipping plugins
+
+1.0.6
+
+* Added \"All categories present\" condition
+* Fixed bug which prevented saving the conditions in some cases.
+
+1.0.5
+
+* Fixed compatibility with the WooCommerce USPS plugin.
+* Added product variations to the product filters.
+* Bug fixes
+
+1.0.4
+
+* Added minimum total volume filter
+
+1.0.3
+
+* Added product filters
+
+1.0.2
+
+* Improved compability with 3rd party shipping method plugins.
+
+1.0.1
+
+* Added measurement conditions
+
+1.0.0
+
+* First version

@@ -1,0 +1,106 @@
+/**
+ * Debug
+ */
+ #wcs-debug {
+	padding: 0 0 0;
+	font-size: 1em;
+	margin-bottom: 20px;
+
+	#wcs-debug-header {
+		background: #3d9cd2;
+		color: #ffffff;
+		padding: 10px 20px;
+		cursor: pointer;
+		position: relative;
+
+		.wcs-debug-toggle {
+			background-image: url("../img/arrow.svg");
+			background-repeat: no-repeat;
+			background-position: right center;
+			width: 42px;
+			height: 100%;
+			right: 0;
+			top: 0;
+			background-size: 42px;
+			position: absolute;
+			transition: .3s all;
+		}
+	}
+
+	&.closed {
+		.wcs-debug-toggle {
+			-webkit-transform: rotate(-90deg);
+			-ms-transform: rotate(-90deg);
+			transform: rotate(-90deg);
+		}
+	}
+
+	h3.ruleset-title {
+		font-size: 1em;
+
+		a {
+			font-weight: bold;
+		}
+	}
+
+	#wcs-debug-contents {
+		padding: 20px 20px 0;
+		display: none;
+		border: 1px solid #dee2e6;
+		border-width: 0 1px 1px;
+	}
+
+	.wcs-debug-conditions {
+		.wcs-condition-result-pass {
+			background: #b2f2bb;
+		}
+
+		.wcs-condition-result-fail {
+			background: #ffc9c9;
+		}
+	}
+
+	table.wcs-debug-table {
+		border: 1px solid #dee2e6;
+		margin: 0 0 20px;
+
+		td, th {
+			padding: 5px 10px;
+		}
+
+		td.align-right,
+		th.align-right {
+			text-align: right;
+		}
+
+		tr.result-pass {
+			th, td {
+				background: #d3f9d8;
+			}
+		}
+
+		tr.result-fail {
+			th, td {
+				background: #ffe3e3;
+			}
+		}
+
+		tr.status-pass {
+			td, th {
+				background: #d3f9d8;
+			}
+		}
+
+		tr.status-pass {
+			td, th {
+				background: #d3f9d8;
+			}
+		}
+
+		tr.status-notify {
+			td, th {
+				background: #fff3bf;
+			}
+		}
+	}
+}

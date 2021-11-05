@@ -1,0 +1,503 @@
+# Copyright (C) 2021 Lauri Karisola / WooElements.com
+# This file is distributed under the same license as the WooCommerce Conditional Shipping Pro plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Conditional Shipping Pro 2.4.3\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/woo-conditional-shipping-pro\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-06-17T10:32:40+03:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.2.0\n"
+"X-Domain: woo-conditional-shipping\n"
+
+#. Plugin Name of the plugin
+msgid "WooCommerce Conditional Shipping Pro"
+msgstr ""
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://wooelements.com"
+msgstr ""
+
+#. Description of the plugin
+msgid "Disable shipping methods based on shipping classes, weight, categories and much more."
+msgstr ""
+
+#. Author of the plugin
+msgid "Lauri Karisola / WooElements.com"
+msgstr ""
+
+#: includes/class-woo-conditional-shipping-debug.php:162
+#: includes/class-woo-conditional-shipping-debug.php:238
+#: includes/class-woo-conditional-shipping-debug.php:239
+#: includes/class-woo-conditional-shipping-debug.php:310
+#: includes/class-woo-conditional-shipping-debug.php:408
+#: includes/woo-conditional-shipping-utils.php:472
+msgid "N/A"
+msgstr ""
+
+#: includes/class-woo-conditional-shipping-debug.php:188
+msgid "Shipping methods were disabled by \"Enable shipping methods\" because conditions did not pass"
+msgstr ""
+
+#: includes/admin/class-woo-conditional-shipping-admin.php:42
+#: includes/admin/class-woo-conditional-shipping-admin.php:70
+#: includes/admin/views/ruleset.html.php:9
+#: includes/admin/views/ruleset.html.php:42
+#: includes/admin/views/settings.html.php:8
+#: includes/frontend/views/debug.html.php:23
+msgid "Conditions"
+msgstr ""
+
+#: includes/admin/views/ruleset.html.php:20
+msgid "Enable / Disable"
+msgstr ""
+
+#: includes/admin/views/ruleset.html.php:25
+msgid "Enable ruleset"
+msgstr ""
+
+#: includes/admin/views/ruleset.html.php:31
+#: includes/admin/views/ruleset.html.php:36
+msgid "Ruleset name"
+msgstr ""
+
+#: includes/admin/views/ruleset.html.php:32
+msgid "This is the name of the ruleset for your reference."
+msgstr ""
+
+#: includes/admin/views/ruleset.html.php:43
+msgid "The following conditions define whether or not actions are run."
+msgstr ""
+
+#: includes/admin/views/ruleset.html.php:58
+msgid "Add Condition"
+msgstr ""
+
+#: includes/admin/views/ruleset.html.php:59
+#: includes/admin/views/ruleset.html.php:89
+msgid "Remove Selected"
+msgstr ""
+
+#: includes/admin/views/ruleset.html.php:66
+msgid "More conditions available in <a href=\"%s\" target=\"_blank\">the Pro version</a>."
+msgstr ""
+
+#: includes/admin/views/ruleset.html.php:74
+#: includes/frontend/views/debug.html.php:44
+msgid "Actions"
+msgstr ""
+
+#: includes/admin/views/ruleset.html.php:75
+msgid "Actions which are run if all conditions pass."
+msgstr ""
+
+#: includes/admin/views/ruleset.html.php:88
+msgid "Add Action"
+msgstr ""
+
+#: includes/admin/views/ruleset.html.php:95
+msgid "<strong>Enable shipping methods</strong>: Shipping methods will be enabled if all conditions pass. If conditions do not pass, shipping methods will be disabled."
+msgstr ""
+
+#: includes/admin/views/ruleset.html.php:96
+msgid "<strong>Disable shipping methods</strong>: Shipping methods will be disabled if all conditions pass."
+msgstr ""
+
+#: includes/admin/views/ruleset.html.php:104
+#: includes/admin/views/settings.html.php:92
+msgid "Save changes"
+msgstr ""
+
+#: includes/admin/views/ruleset.html.php:139
+msgid "highest"
+msgstr ""
+
+#: includes/admin/views/ruleset.html.php:140
+msgid "lowest"
+msgstr ""
+
+#: includes/admin/views/ruleset.html.php:194
+msgid "Subtotal includes coupons"
+msgstr ""
+
+#: includes/admin/views/ruleset.html.php:249
+msgid "Postcodes containing wildcards (e.g. CB23*) or fully numeric ranges (e.g. <code>90210...99000</code>) are also supported."
+msgstr ""
+
+#: includes/admin/views/ruleset.html.php:374
+msgid "Shipping methods"
+msgstr ""
+
+#: includes/admin/views/ruleset.html.php:391
+msgid "Custom \"no shipping methods available\" message"
+msgstr ""
+
+#: includes/admin/views/ruleset.html.php:395
+msgid "Shipping notice"
+msgstr ""
+
+#: includes/admin/views/settings.html.php:9
+msgid "Add ruleset"
+msgstr ""
+
+#: includes/admin/views/settings.html.php:17
+msgid "Rulesets"
+msgstr ""
+
+#: includes/admin/views/settings.html.php:25
+#: includes/class-woo-conditional-shipping-ruleset.php:44
+msgid "Ruleset"
+msgstr ""
+
+#: includes/admin/views/settings.html.php:40
+msgid "Edit"
+msgstr ""
+
+#: includes/admin/views/settings.html.php:40
+msgid "Delete"
+msgstr ""
+
+#: includes/admin/views/settings.html.php:48
+msgid "No rulesets defined yet."
+msgstr ""
+
+#: includes/admin/views/settings.html.php:60
+msgid "Disable all"
+msgstr ""
+
+#: includes/admin/views/settings.html.php:66
+msgid "Disable all rulesets"
+msgstr ""
+
+#: includes/admin/views/settings.html.php:69
+msgid "Helpful for finding out if Conditional Shipping or another plugin is affecting shipping methods for troubleshooting."
+msgstr ""
+
+#: includes/admin/views/settings.html.php:76
+#: includes/admin/views/settings.html.php:82
+msgid "Debug mode"
+msgstr ""
+
+#: includes/admin/views/settings.html.php:85
+msgid "Debug mode shows passed conditions and which actions were run in the checkout."
+msgstr ""
+
+#: includes/admin/views/settings.html.php:102
+msgid "Health check"
+msgstr ""
+
+#: includes/admin/views/settings.html.php:108
+msgid "<code>Enable shipping methods - %1$s</code> in multiple rulesets"
+msgstr ""
+
+#: includes/admin/views/settings.html.php:117
+msgid "You have <code>Enable shipping methods - %1$s</code> in multiple rulesets (%2$s). <code>Enable shipping methods</code> will disable the methods if conditions do not pass. It can cause unexpected behaviour when used in multiple rulesets for the same shipping method (<code>%1$s</code>)."
+msgstr ""
+
+#: includes/admin/views/settings.html.php:121
+#: includes/admin/views/settings.html.php:156
+msgid "How to fix"
+msgstr ""
+
+#: includes/admin/views/settings.html.php:124
+msgid "Check if you can use <code>Disable shipping methods</code> instead. It's usually easier to work with."
+msgstr ""
+
+#: includes/admin/views/settings.html.php:125
+msgid "Remove <code>Enable shipping methods - %s</code> from all but one ruleset."
+msgstr ""
+
+#: includes/admin/views/settings.html.php:137
+msgid "<code>%s</code> disabled in the shipping zone"
+msgstr ""
+
+#: includes/admin/views/settings.html.php:147
+msgid "You have <code>%1$s - %2$s</code> in %3$s but <code>%2$s</code> is disabled in <a href=\"%4$s\" target=\"_blank\">the shipping zone</a>. Conditional Shipping can only process shipping methods which are enabled."
+msgstr ""
+
+#: includes/admin/views/settings.html.php:160
+msgid "Enable <code>%s</code> in <a href=\"%s\" target=\"_blank\">the shipping zone</a>"
+msgstr ""
+
+#: includes/admin/views/settings.html.php:167
+msgid "Remove <code>%1$s - %2$s</code> from %3$s."
+msgstr ""
+
+#: includes/frontend/views/debug.html.php:3
+msgid "Conditional Shipping Debug"
+msgstr ""
+
+#: includes/frontend/views/debug.html.php:9
+msgid "No rulesets were run."
+msgstr ""
+
+#: includes/frontend/views/debug.html.php:30
+#: includes/frontend/views/debug.html.php:36
+msgid "Fail"
+msgstr ""
+
+#: includes/frontend/views/debug.html.php:30
+#: includes/frontend/views/debug.html.php:36
+msgid "Pass"
+msgstr ""
+
+#: includes/frontend/views/debug.html.php:61
+msgid "No actions were run for this ruleset"
+msgstr ""
+
+#: includes/class-conditional-shipping-updater.php:69
+msgid "Disable shipping method %s"
+msgstr ""
+
+#: includes/pro/class-conditional-shipping-pro-functions.php:27
+msgid "of all products"
+msgstr ""
+
+#: includes/pro/class-conditional-shipping-pro-functions.php:29
+msgid "of products in a shipping class"
+msgstr ""
+
+#: includes/pro/class-conditional-shipping-pro-functions.php:33
+msgid "of products NOT in a shipping class"
+msgstr ""
+
+#: includes/pro/class-conditional-shipping-pro-functions.php:63
+msgid "Set shipping method price"
+msgstr ""
+
+#: includes/pro/class-conditional-shipping-pro-functions.php:67
+msgid "Increase shipping method price"
+msgstr ""
+
+#: includes/pro/class-conditional-shipping-pro-functions.php:71
+msgid "Decrease shipping method price"
+msgstr ""
+
+#: includes/pro/class-conditional-shipping-pro-functions.php:75
+msgid "Set custom no shipping message"
+msgstr ""
+
+#: includes/pro/class-conditional-shipping-pro-functions.php:79
+msgid "Set shipping notice"
+msgstr ""
+
+#: includes/pro/class-conditional-shipping-pro-functions.php:91
+msgid "Number of Items"
+msgstr ""
+
+#: includes/pro/class-conditional-shipping-pro-functions.php:95
+msgid "Shipping Classes"
+msgstr ""
+
+#: includes/pro/class-conditional-shipping-pro-functions.php:99
+msgid "Categories"
+msgstr ""
+
+#: includes/pro/class-conditional-shipping-pro-functions.php:103
+msgid "Product Attributes"
+msgstr ""
+
+#: includes/pro/class-conditional-shipping-pro-functions.php:107
+msgid "Coupons"
+msgstr ""
+
+#: includes/pro/class-conditional-shipping-pro-functions.php:115
+msgid "Product Measurements"
+msgstr ""
+
+#: includes/pro/class-conditional-shipping-pro-functions.php:118
+msgid "Weight (%s)"
+msgstr ""
+
+#: includes/pro/class-conditional-shipping-pro-functions.php:122
+msgid "Height (%s)"
+msgstr ""
+
+#: includes/pro/class-conditional-shipping-pro-functions.php:126
+msgid "Length (%s)"
+msgstr ""
+
+#: includes/pro/class-conditional-shipping-pro-functions.php:130
+msgid "Width (%s)"
+msgstr ""
+
+#: includes/pro/class-conditional-shipping-pro-functions.php:139
+msgid "Customer"
+msgstr ""
+
+#: includes/pro/class-conditional-shipping-pro-functions.php:142
+msgid "Logged in / out"
+msgstr ""
+
+#: includes/pro/class-conditional-shipping-pro-functions.php:146
+msgid "Role"
+msgstr ""
+
+#: includes/pro/class-conditional-shipping-pro-functions.php:155
+msgid "Billing Address"
+msgstr ""
+
+#: includes/pro/class-conditional-shipping-pro-functions.php:158
+msgid "Postcode (billing)"
+msgstr ""
+
+#: includes/pro/class-conditional-shipping-pro-functions.php:162
+msgid "State (billing)"
+msgstr ""
+
+#: includes/pro/class-conditional-shipping-pro-functions.php:166
+msgid "Country (billing)"
+msgstr ""
+
+#: includes/pro/class-conditional-shipping-pro-functions.php:175
+msgid "Shipping Address"
+msgstr ""
+
+#: includes/pro/class-conditional-shipping-pro-functions.php:178
+msgid "Postcode (shipping)"
+msgstr ""
+
+#: includes/pro/class-conditional-shipping-pro-functions.php:182
+msgid "State (shipping)"
+msgstr ""
+
+#: includes/pro/class-conditional-shipping-pro-functions.php:186
+msgid "Country (shipping)"
+msgstr ""
+
+#: includes/pro/class-conditional-shipping-pro-functions.php:195
+msgid "Misc"
+msgstr ""
+
+#: includes/pro/class-conditional-shipping-pro-functions.php:198
+msgid "Weekday"
+msgstr ""
+
+#: includes/pro/class-conditional-shipping-pro-functions.php:202
+msgid "Time"
+msgstr ""
+
+#: includes/class-woo-conditional-shipping-post-type.php:26
+msgid "Conditional Shipping Rulesets"
+msgstr ""
+
+#: includes/class-woo-conditional-shipping-post-type.php:27
+msgid "Conditional Shipping Ruleset"
+msgstr ""
+
+#: includes/woo-conditional-shipping-utils.php:41
+msgid "greater than"
+msgstr ""
+
+#: includes/woo-conditional-shipping-utils.php:42
+msgid "greater than or equal"
+msgstr ""
+
+#: includes/woo-conditional-shipping-utils.php:43
+msgid "less than"
+msgstr ""
+
+#: includes/woo-conditional-shipping-utils.php:44
+msgid "less than or equal"
+msgstr ""
+
+#: includes/woo-conditional-shipping-utils.php:45
+msgid "includes"
+msgstr ""
+
+#: includes/woo-conditional-shipping-utils.php:46
+msgid "includes (exclusive)"
+msgstr ""
+
+#: includes/woo-conditional-shipping-utils.php:47
+msgid "excludes"
+msgstr ""
+
+#: includes/woo-conditional-shipping-utils.php:48
+msgid "all present"
+msgstr ""
+
+#: includes/woo-conditional-shipping-utils.php:49
+msgid "is"
+msgstr ""
+
+#: includes/woo-conditional-shipping-utils.php:50
+msgid "is not"
+msgstr ""
+
+#: includes/woo-conditional-shipping-utils.php:51
+msgid "is not empty"
+msgstr ""
+
+#: includes/woo-conditional-shipping-utils.php:52
+msgid "is empty"
+msgstr ""
+
+#: includes/woo-conditional-shipping-utils.php:53
+msgid "contains"
+msgstr ""
+
+#: includes/woo-conditional-shipping-utils.php:54
+msgid "logged in"
+msgstr ""
+
+#: includes/woo-conditional-shipping-utils.php:55
+msgid "logged out"
+msgstr ""
+
+#: includes/woo-conditional-shipping-utils.php:72
+msgid "Cart"
+msgstr ""
+
+#: includes/woo-conditional-shipping-utils.php:75
+msgid "Subtotal"
+msgstr ""
+
+#: includes/woo-conditional-shipping-utils.php:79
+msgid "Products"
+msgstr ""
+
+#: includes/woo-conditional-shipping-utils.php:85
+msgid "Package Measurements"
+msgstr ""
+
+#: includes/woo-conditional-shipping-utils.php:88
+msgid "Total Weight (%s)"
+msgstr ""
+
+#: includes/woo-conditional-shipping-utils.php:92
+msgid "Total Height (%s)"
+msgstr ""
+
+#: includes/woo-conditional-shipping-utils.php:96
+msgid "Total Length (%s)"
+msgstr ""
+
+#: includes/woo-conditional-shipping-utils.php:100
+msgid "Total Width (%s)"
+msgstr ""
+
+#: includes/woo-conditional-shipping-utils.php:104
+msgid "Total Volume (%s&sup3;)"
+msgstr ""
+
+#: includes/woo-conditional-shipping-utils.php:134
+msgid "Disable shipping methods"
+msgstr ""
+
+#: includes/woo-conditional-shipping-utils.php:137
+msgid "Enable shipping methods"
+msgstr ""
+
+#: includes/woo-conditional-shipping-utils.php:334
+msgid "- All coupons -"
+msgstr ""
+
+#: includes/woo-conditional-shipping-utils.php:335
+msgid "- Free shipping coupons -"
+msgstr ""
